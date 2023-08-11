@@ -17,19 +17,19 @@ export default function Connet() {
         <img src={Connecy} alt="images" style={{ maxWidth: '750px' }} />
         
         <div id="container">
-        <form action="verification.php" method="POST">
-        <h2 className='mop'>Connexion</h2>
-          
-          <label><b>Nom d'utilisateur</b></label>
-          <input type="text" placeholder="Entrez votre email..." name="username" required />
+          <form >
+            <h2 className='mop'>Connexion</h2>
+            
+            <label><b>Nom d'utilisateur</b></label>
+            <input type="text" placeholder="Entrez votre email..." name="username" required />
 
-          <label><b>Mot de passe</b></label>
-          <input type="password" placeholder="Entrez votre mot de passe..." name="password" required />
+            <label><b>Mot de passe</b></label>
+            <input type="password" placeholder="Entrez votre mot de passe..." name="password" required />
 
-          <input type="submit" id='submit' value='Se Connecter' />
-      
-        </form>
-        <p className="inscription-link">Pas de compte ? <Link to="/inscription">Inscrivez-vous</Link></p>
+            <Link to="/Contact"><input type="submit" id='submit' value='Se Connecter' /></Link>
+        
+          </form>
+          <p className="inscription-link">Pas de compte ? <Link to="/inscription">Inscrivez-vous</Link></p>
         </div>
       </div>
 

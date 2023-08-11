@@ -1,0 +1,22 @@
+body{
+    margin: 0%;
+    padding: 0;
+
+}
+
+.nav-links4 {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: auto;
+    margin: 0%;
+    padding-bottom: 2%;
+    height: 80px;   
+    background-color: #20835D   
+} 
+.Bannie{
+    width: 1567px;
+    height: 600px;
+    flex-shrink: 0;
+}

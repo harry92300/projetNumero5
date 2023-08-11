@@ -17,7 +17,7 @@ export default function Inscription(){
             <img src={Inscri} alt="images"className="responsive-image" width="750px" height="920px" style={{ maxWidth: '750px' }} />
 
             <div id="container">
-        <form action="verification.php" method="POST">
+        <form method="POST">
         <h2 className='mop1'>Inscription</h2>
 
         <form action="verification.php" method="POST">
@@ -33,7 +33,7 @@ export default function Inscription(){
             <input type="text" placeholder="Entrez votre prénom..." name="prenom" required />
              </div>
                 </div>
-
+     
                 <label><b>Email</b></label>
                 <input type="email" placeholder="Entrez votre email..." name="email" required />
 
@@ -48,7 +48,7 @@ export default function Inscription(){
                     <option value="femme">Femme</option>
                 </select>
 
-                <button className='m3a' id="valider">Valider</button>
+                <Link to="/Contact"><button className='m3a' id="valider">Valider</button></Link>
             </form>
             <p className="inscription-link">Déjà inscrit ? <Link to="/connexion">Connectez-vous</Link></p>
         </form>
