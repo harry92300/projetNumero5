@@ -19,4 +19,121 @@ body{
     width: 1567px;
     height: 600px;
     flex-shrink: 0;
+    display: flex;
 }
+
+.image-container {
+    flex: 1;
+}
+
+.nexban {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Couleur de fond transparente */
+    padding: 20px;
+    display: flex;
+    width: 70%;
+}
+
+.nom{
+    left: 20%;
+    color: #FFF;
+}
+.prenom{
+    margin-left: 16%
+}
+.firs{
+    color: #DACA3B;
+    font-family: Gravitas One;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+#main {
+    max-width: 940px;
+    margin:auto;
+    }
+    #menu  {
+    float:left;
+    width:240px;
+    
+    }
+    #contenu {
+    margin-left:245px;
+    
+    }
+    .vertical-list {
+        list-style: none;
+        background: #C7B941;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
+      }
+      
+      .vertical-list li {
+        margin-bottom: 10px;
+        padding: 5px 10px;
+        font-size: 16px;
+        color: #FFF;
+        text-align: center;
+        font-family: Inter;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      .rapps{
+        color: #000;
+        background: #FFF;
+        font-family: Inter;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      .displa{
+        background: #D9D9D9;
+        width: 980px;
+        height: 497px;
+        flex-shrink: 0;
+        margin-left: 20%;
+        padding-right: 12%;
+      }
+      .little{
+        margin-left: 25%;
+      }
+      #footer {
+        background-color:#669933;
+        text-align:center;
+        clear:both;
+        }
+        .typer{
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        .asd{
+            text-align: center;
+        }
+        .fourpx{
+            display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Espace entre les images */
+  width: 812px; /* Largeur totale (401 + 10 + 401) */
+  margin: auto; 
+        }
