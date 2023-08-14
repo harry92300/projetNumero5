@@ -132,8 +132,36 @@ body{
         }
         .fourpx{
             display: flex;
-  flex-wrap: wrap;
-  gap: 10px; /* Espace entre les images */
-  width: 812px; /* Largeur totale (401 + 10 + 401) */
-  margin: auto; 
+            flex-wrap: wrap;
+            gap: 10px; /* Espace entre les images */
+            width: 812px; /* Largeur totale (401 + 10 + 401) */
+            margin: auto; 
+            
+        }
+.looking{
+margin-left: 20%;
+}
+.tube , .tubeS{
+display: flex;
+background-color: #20835D;
+width: 968px;
+height: 398px;
+flex-shrink: 0;
+margin-left: 20%;
+margin-bottom: 7%;
+}
+.rick , .rickS{
+text-align: center;
+color: #FFF;
+font-family: Inter;
+font-size: 44px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-left: 280%;
+}
+.MUSICAL , .MUSICALS{
+width: 48px;
+height: 46.226px;
+flex-shrink: 0;
         }

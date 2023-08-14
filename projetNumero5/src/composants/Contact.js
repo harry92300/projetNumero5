@@ -8,6 +8,12 @@ import Yellow from '../images/pexels-sound-on-3755913.jpg'
 import Cdm from '../images/pexels-matthias-groeneveld-4200745.jpg'
 import Voyage from '../images/pexels-kampus-production-5935232.jpg'
 import Frede from '../images/fd_qsn.jpg'
+import Look from '../images/pexels-rodnae-productions-7017804.mp4'
+import Jazz from '../images/album-hip-hop.png'
+import Music from '../images/lofi-chill-medium-version-159456.mp3'
+import JazzS from '../images/album-hop.png'
+import Musique from '../images/lo-fi-hip-hop-emotional-amp-chill-music-156547.mp3'
+
 
 export default function Contact() {
     return (
@@ -63,18 +69,52 @@ export default function Contact() {
     </div>
 
 <h4 className='asd'>Gallery</h4>
+
 <div className='fourpx'>
-<img src={Yellow} alt='nexime' width="401" height="404" />
+<img src={Yellow} alt='nexime' width="401" height="404" /> 
 <img src={Cdm} alt='nexime' width="401" height="404" />
 <img src={Voyage} alt='nexime' width="401" height="404" />
 <img src={Frede} alt='nexime' width="401" height="404" />
 </div>
+<h5 className='viv'>Vidéo</h5>
 
+<div className='looking'>
+<video src={Look} autoPlay loop muted playsInlinel style={{ maxWidth: '883px', maxHeight:'800px' }} />
+</div>
+
+<h6 className='musico'>Music</h6>
+
+<div className='tube'>
+  <img src={Jazz} alt='nexime' width="401" height="404" />
+  <div className='MUSICAL'>
+  <p className='rick'>RioGane -Down </p>
+  
+  <audio controls>
+    <source src={Music} type="audio/mp3" />
+  </audio>
+  </div>
+</div>
+
+
+<div className='tubeS'>
+<img src={JazzS} alt='nexime' width="401" height="404" />
+<div className='MUSICALS'>
+  <p className='rickS'>Grange - WAP  </p>
+  
+  <audio controls>
+    <source src={Musique} type="audio/mp3" />
+  </audio>
+  </div>
+</div>
 </div>
 
 
 
-
+<footer>
+        <div className="foot">
+          <p className="footer">© 2023 Connectify. Tous Droits Réservés.</p>
+        </div>
+      </footer>
 
 
             
