@@ -57,7 +57,7 @@ h1{
     transform: translate(-50%, -50%); 
     font-size: 150px; 
     color: rgb(23, 81, 6); 
-    top: 120%;
+    top: 170%;
   }
   .ligne{
     position: absolute; 
@@ -65,7 +65,7 @@ h1{
     transform: translate(-50%, -50%); 
     font-size: 50px; 
     color: rgb(243, 247, 242); 
-    top: 150%;
+    top: 190%;
     margin-bottom: 5%;
   }
   .video-container-x{
@@ -247,36 +247,97 @@ h1{
 
 
 
-
-
-
-
-
-
-@media (min-width: 390px) {
-    video {
-      max-width: 1452px;
-    }
-  }
  
   @media (max-width: 768px) {
     .video-container video,
     .video-container-x video {
       max-width: 100%; 
-      height: auto; 
+      height: 100vh; 
     }
   }
 
   @media (max-width: 768px) {
     .video-title {
-      font-size: 80px; /* Taille de police réduite pour les écrans jusqu'à 768px de large */
+      font-size: 80px; 
     }
   }
   
   @media (min-width: 769px) and (max-width: 1200px) {
     .video-title {
-      font-size: 100px; /* Taille de police réduite pour les écrans entre 769px et 1200px de large */
+      font-size: 100px; 
     }
   }
+  @media screen and (max-width: 390px) {
+    video {
+      max-width: 100%;
+    }
+    .video-container-x h3
+     {
+      font-size: 3rem; 
+    }
+    .video-container-x p{
+      font-size: 12px;
+    }
+    .divun{
+      width: 100%;
+      display: block;
+    }
+    .bloks{
+      display: block;
+      background-color: rgb(9, 57, 9);
+      flex-direction: row;
+      width: 100%;
+  }
+  
+  .bloks img ,bloksx img{
+      
+      width: 100%;
+  }
+  .bloks p , .bloksx p{
+      width: 100%;
+  }
+  .bloksx{
+    width: 100%;
+    display: block;
+  }
+  .bloksx img {
+width: 100%;
+  }
+  .newBloks{
+    display: block;
+    width: 100%;
+    background: #20835D;
+  }
+  .newBloks img{
+    width: 100%;
+  }
+  .newBloks section {
+    width: 100%;
+  }
+  .contactx form {
+    width: 100%;
+    margin-left: 0;
+  }
+  textarea {
+    width: 80%;
+  }
+  .contactx{
+    font-size: 32px;
+    height: 631px;
+    top: 4496px;
+    left: 872px;
+    background: #1D5A43;
+    margin-left: 0;
+
+  }
+  .video-title {
+    font-size: 50px;
+}
+
+
+  
+  }
+
+  
 
  

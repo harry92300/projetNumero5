@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
+
+.error-page-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(140, 37, 37, 0.799);
+}
+
+#error-message{
+    font-size: 5rem;
+}
+
+#error-redirection{
+    font-size: 3rem;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

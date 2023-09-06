@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom'
 
 export default function Header() {
   return (
-    <div>
+    <div className='divun'>
       <ul className="nav-links">
         <li><h1>Connectify</h1></li>
         <li><Link to='/' className="link yellow-link" >Accueil</Link></li>

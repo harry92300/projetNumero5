@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Assurez-vous d'importer Link
+import { Link } from 'react-router-dom'; 
 import '../styles/connet.css';
 import Connecy from '../images/fd_connexion.jpg';
 
@@ -14,8 +14,8 @@ export default function Connet() {
       </ul>
 
       <div className="bloks2">
-        <img src={Connecy} alt="images" style={{ maxWidth: '750px' }} />
-        
+      <img src={Connecy} alt="images" style={{ maxWidth: '750px', width: '100%', height: '100vh' }} />
+
         <div id="container">
           <form >
             <h2 className='mop'>Connexion</h2>
